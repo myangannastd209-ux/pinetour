@@ -452,6 +452,8 @@ body {
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+  display: flex;
+  gap: 10px;
 }
 .doll {
   color: #303030;
@@ -460,6 +462,11 @@ body {
   font-style: normal;
   font-weight: 600;
   line-height: normal;
+
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
 }
 .LUX {
   border-radius: 40px;
@@ -468,7 +475,6 @@ body {
   display: flex;
   flex-direction: row;
   padding: 25px;
-
   align-items: center;
   width: 384px;
   height: 527px;
@@ -479,4 +485,11 @@ body {
   display: flex;
   flex-direction: row;
   gap: 24px;
+}
+.zurh {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
 }
