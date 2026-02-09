@@ -444,6 +444,7 @@ body {
   align-items: center;
   gap: var(--24-px-unit-6, 24px);
   flex-direction: row;
+  background-size: cover;
 }
 .OUR {
   color: var(--Text-TextPrimary, #121316);
@@ -485,7 +486,17 @@ body {
   display: flex;
   flex-direction: row;
   gap: 24px;
+  justify-content: center ;
+
 }
+.gurvan1:hover{
+  border-radius: 40px;
+background: #FAFBFC;
+box-shadow: -8px -8px 0 0 rgba(46, 65, 71, 0.40), 8px 8px 0 0 rgba(41, 114, 139, 0.25);
+
+}
+
+
 .zurh {
   display: flex;
   flex-direction: column;
@@ -540,9 +551,10 @@ background: #A4D1E2;
 }
 .face{
   display: flex;
-width: 1440px;
-padding: 80px 120px;
-flex-direction: column;
+width: 100%;
+padding: 0;
+justify-content: space-around;
+
 align-items: flex-start;
 gap: 10px;
 }
@@ -566,4 +578,42 @@ border-radius: var(--radius-rounded-full, 9999px);
 background: #FAFBFC;
 
 }
+.LUX{
+  display: flex;
+  
+}.logo-footer{
+  display: flex;
+  justify-content: flex-end;
+  gap: 100px;
+  width: 101px;
+  height: 35px;
+  align-items: center;
 
+
+}
+.footer{
+  display: flex;
+ 
+  gap: 900px;
+  align-items: center;
+}
+.fi{
+  display: flex;
+  gap: 30px;
+  justify-content: flex-start;
+  align-items: center;
+}
+.facebook{
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 40px;
+  padding: 10px;
+  display: flex;
+}
+.instagram{
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 40px;
+  padding: 10px;
+  display: flex;
+}
